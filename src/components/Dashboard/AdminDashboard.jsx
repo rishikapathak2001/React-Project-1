@@ -1,17 +1,15 @@
 import React from 'react'
 import Header from '../../assets/other/Header'
+import CreateTask from '../../assets/other/CreateTask'
+import AllTask from '../../assets/other/AllTask'
 
 const AdminDashboard = () => {
   return (
-    <div className='h-screen w-full'>
+    <div className='h-screen w-full p-7'>
 
    <Header/>
-  <div>
-    <form>
-        <h3>Task Title</h3>
-        <input type="text" placeholder='Make a UI design' />
-    </form>
-  </div>
+  <CreateTask/>
+  <AllTask/>
 
     </div>
   )
